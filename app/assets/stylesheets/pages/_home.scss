@@ -1,1 +1,98 @@
 // Specific CSS for your home-page
+// Specific CSS for your home-page
+
+body {
+  margin-bottom: 2rem;
+  background-color: #000000;
+  cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym837.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym837.png), auto !important;
+  ::selection {
+    background: #FBAACD;
+  }
+
+}
+h1 {
+  font-size: 400%;
+  // display: flex;
+  text-align: center;
+  margin-top: 11px;
+  font-family:'Great Vibes', cursive;
+  color: #abcef1;
+
+
+
+}
+.logo{
+  /* display: flex; */
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+
+}
+
+p{
+  color: #ECABF1;
+  text-align: center;
+  margin-top: 25%;
+  margin: 20px;
+  font-family: Andale Mono, Roboto Mono, monospace;
+}
+.intro{
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2,h3{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  margin-top: 21px;
+  font-size: 200%;
+  color: #0fba48;
+
+
+}
+
+// body{
+
+//   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+
+// }
+ul{
+  // add roboto mono or make the ul monospace?
+  font-family: Andale Mono, monospace;
+  text-align: center;
+  max-width: 500px;
+  margin:auto;
+  color: #ECABF1;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.footer1 {
+  position: fixed, bottom;
+  left: 0;
+  bottom: 1rem;
+  width: 100%;
+
+  color: rgb(230, 182, 216);
+  text-align: center;
+}
+
+h6{
+font-family: Andale Mono, Roboto Mono, monospace;
+color: #ECABF1;
+}
+// .work{
+// justify-content: center;
+// }
